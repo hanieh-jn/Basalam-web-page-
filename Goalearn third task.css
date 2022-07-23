@@ -1,0 +1,154 @@
+/* ==================general style=============== */
+*{
+      box-sizing: border-box;
+}
+body{
+      background-color:  #F8F9FA;
+}
+
+
+
+/* ================topbar style ================= */
+#topbar
+.phone,
+.envelope,
+.twitter,
+.facebook,
+.instagram,
+.linkedin{
+      color:  #516A7F;
+}
+#topbar{
+      height: 40px;
+      background-color: #F8F9FA;
+}
+
+#topbar >p{
+      font-size: 24px;
+}
+
+
+#navfirstitem{
+      color:rgb(35, 28, 252); 
+      text-decoration:underline;   
+}
+
+#navbutton{
+  color:gray ;
+}
+
+#navscbutton{
+      font-size:14px ;
+      background-color: rgb(33, 33, 187);  
+      color: white;
+      
+}
+
+
+
+/* =================navbar style============== */
+
+#navbar >.nav-link{
+      padding-right: 25px;
+}
+#navscbutton{
+     background-color:#1C78CB;
+     border-radius: 50px;
+     margin-left: 20px;
+
+}
+
+#medilab{
+      color: #34495d;
+      font-weight: bolder;
+}
+@media only screen and (max-width: 986px) {
+      #navscbutton{
+            margin-left: 1px;
+      }  
+}
+
+
+
+
+/*================ section style============== */
+#hero{
+      border: 1px solid rgb(232, 233, 238);
+      height: 110vh;   /* resonsive  */
+       width: cover; /* or cover to make it responsive  */
+       max-width: 100%;
+      background-image: url('../img/hero-bg.jpg');  
+      opacity: 98%;
+      background-size:cover;  /*responsive */
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding-top:30vh; 
+}
+
+#hero>h1{
+     font-size: 40px;
+     color:#30465A ; 
+     font-weight:700;
+}
+
+
+ #introduction{
+       font-size: 40px;
+       color:#30465A ; 
+        font-weight:700;
+}
+
+#design{
+      color:#30465A ;  
+}
+
+#button-section{
+      color: white;
+        background-color:#1C78CB; 
+        font-size: 24px;
+        border: 13px solid #1C78CB; 
+        border-radius: 50px;  
+        width: 35vh;
+        height: 10vh;
+        max-width: 100%;
+}
+
+@media only screen and (max-width: 501px) {
+
+     #introduction {
+        font-size: 23px;
+        }
+        #design{
+            font-size: 18px;
+        }
+        #button-section{
+            font-size: 18px;
+        }
+}
+
+@media only screen and (max-width: 986px) {
+ #button-section{
+            width: 35vh;
+            height: 10vh;
+         }
+ #hero{
+      height: 120vh;
+      padding-top: 15vh;
+} 
+}
+
+@media only screen and (max-width: 1286px) {
+      #button-section{
+            font-size: 20px;
+            height: 13vh;
+        }
+}
+
+
+ 
+
+
+
+
+
+
+
